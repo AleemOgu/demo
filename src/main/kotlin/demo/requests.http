@@ -1,0 +1,29 @@
+### Post "Hello!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Hello!"
+}
+
+### Post "Bonjour!"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Bonjour!"
+}
+
+### Post "Privet!"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Privet!"
+}
+
+### Get the message by its id
+@id = c13a365c-2eb4-44a3-af6d-39c31384444d
+GET http://localhost:8080/{{id}}
